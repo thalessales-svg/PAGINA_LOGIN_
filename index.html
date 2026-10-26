@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+Digite sua senha:
+<input id="senha" type="password">
+<button onclick="entrar()">Entrar</button>
+
+<script>
+function entrar(){
+    var senha = document.getElementById("senha").value;
+
+    if(senha == "cesf2026"){
+        alert("Você está liberado para passar");
+    }
+    else{
+        alert("Você não está liberado para passar");
+    }
+}
+</script>
+</head>
+<body>
+
+</body>
+</html>
